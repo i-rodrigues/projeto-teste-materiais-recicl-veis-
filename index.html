@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto teste - Materiais Recicláveis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+
+<link rel="stylesheet" href="./src/css/estilos.css">
+
+<link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+   <header class="cabecalho">
+    <h1>Materiais-Recicláveis</h1>
+   </header>
+   <main class="cores-materiais">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.PNG" alt="seta para voltar a imagem">
+    </button>
+
+    <ul class="lista-materiais">
+        <li class="cartao selecionado fundo-1">
+            <h2 class="nome">Papel</h2>
+            <img class="imagem-materiais" src="./src/imagens/PAPEL.PNG" alt="Papel">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    O recipiente de cor azul é destinado à coleta de papel e papelão. Nele, devem ser descartados jornais, revistas, embalagens de papelão, caixas e outros materiais similares.
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-2">
+            <h2 class="nome">Plástico</h2>
+            <img class="imagem-materiais" src="./src/imagens/PLASTICO.PNG" alt="Plástico">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    O recipiente vermelho é utilizado para o descarte de plásticos. Garrafas PET, embalagens plásticas, sacolas, potes e tampas são alguns exemplos de materiais que devem ser colocados nesse recipiente.
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-3">
+            <h2 class="nome">Vidro</h2>
+            <img class="imagem-materiais" src="./src/imagens/VIDRO.PNG" alt="Vidro">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    O vidro deve ser descartado nos recipientes verdes. Garrafas, potes e frascos de vidro podem ser reciclados e transformados em novos produtos.
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-4">
+            <h2 class="nome">Metal</h2>
+            <img class="imagem-materiais" src="./src/imagens/METAL.PNG" alt="Metal">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    O recipiente amarelo é destinado aos metais. Latas de alumínio, latas de aço, tampas metálicas e outros objetos feitos de metal devem ser descartados nesse recipiente.
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-5">
+            <h2 class="nome">Orgânico</h2>
+            <img class="imagem-materiais" src="./src/imagens/ORGANICO.PNG" alt="Orgânico">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    Os resíduos orgânicos, como restos de alimentos, cascas de frutas e legumes, podas de plantas e outros materiais biodegradáveis, devem ser depositados em recipientes de cor marrom.
+                </p>
+            </div>
+        </li>
+    </ul>
+
+    <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.PNG" alt="seta para avançar a imagem">
+    </button>
+   </main>
+
+<script src="./src/js/index.js"></script>
+
+</body>
+</html>
